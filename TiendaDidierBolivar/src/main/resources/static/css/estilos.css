@@ -12,8 +12,8 @@ tbody tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-    background-color: black;
-    color: red 
+    background-color: red;
+    color: white 
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     left: 0;
     width: 100%;
     height: 90px;
-    background-color: #076af0;
+    background-color: green;
 }
 
 .logo {
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-menu-link:hover {
-    background-color: #024070;
+    background-color: darkgreen;
     transition: 0.5s;
 }
 
@@ -81,7 +81,7 @@ body {
     left: 0;
     width: 20%;
     height: 75%;
-    background-color: aqua;
+    background-color: pink;
 }
 
 .section {
