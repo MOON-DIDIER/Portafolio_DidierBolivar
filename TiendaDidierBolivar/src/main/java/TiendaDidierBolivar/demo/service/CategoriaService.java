@@ -10,4 +10,10 @@ import java.util.List;
 public interface CategoriaService {
     // Se obtiene un listado de categorias en un list
     public List <Categoria> getCategorias(boolean activos);  
+
+    public void save(Categoria categoria);
+
+    public void delete(Categoria categoria);
+
+    public Categoria getCategoria(Categoria categoria);
 }
