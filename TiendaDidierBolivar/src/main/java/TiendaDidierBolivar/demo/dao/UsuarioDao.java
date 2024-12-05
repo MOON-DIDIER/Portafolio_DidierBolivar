@@ -4,7 +4,15 @@
  */
 package TiendaDidierBolivar.demo.dao;
 
-import TiendaDidierBolivar.demo.domain.Categoria;
+import TiendaDidierBolivar.demo.domain.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
-public interface CategoriaDao extends JpaRepository <Categoria,Long>{
+
+/**
+ *
+ * @author rdcd2
+ */
+public interface UsuarioDao extends JpaRepository<Usuario, Long> {
+
+        Usuario findByUsername (String username);
+    
 }

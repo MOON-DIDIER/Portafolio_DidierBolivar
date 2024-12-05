@@ -4,7 +4,9 @@
  */
 package TiendaDidierBolivar.demo.dao;
 
-import TiendaDidierBolivar.demo.domain.Categoria;
+import TiendaDidierBolivar.demo.domain.Rol;
 import org.springframework.data.jpa.repository.JpaRepository;
-public interface CategoriaDao extends JpaRepository <Categoria,Long>{
+
+public interface RolDao extends JpaRepository<Rol, Long> {
+
 }
